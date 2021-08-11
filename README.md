@@ -1,5 +1,5 @@
 # Computational Quantitative Life Science cluster at Oregon State University
-
+## CQLS@OSU
 ### Setup and setting of the Computational Quantitative Life Science cluster
 
    You've been given an account on the following machine:
@@ -21,3 +21,19 @@
                Samba/SMB Access:
                	Windows: \\files.cgrb.oregonstate.edu
                	Mac: smb://files.cgrb.oregonstate.edu
+                  
+                  
+                  
+> Notes:
+> All programs are in `/local/cluster/`
+> Aparently, you have to call each program from its PATH, so double check that carefully.
+> Also, the nodes are specified independently, so double check that you are running optimally.
+
+> Raw pipeline for PacBio genome assemblies of P. ramorum
+```bash
+-> hgap-4 -> Falcon-unzip -> purge_haplotigs -> SSPACE_LongRead
+```
+#for nano pore assemblies 
+```bash
+flye # to aassembly de novo 
+```
