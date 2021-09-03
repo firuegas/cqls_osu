@@ -44,11 +44,11 @@ flye # to aassembly de novo
 in `.bashrc` add 
 
 ```bash
-export PATH=$PATH:/bin/to_folder
+export PATH=$PATH:/.local/to_folder
 ```
-
+   
 and in the `.tcshrc`, set the enviroment by adding
 ```bash
-set PATH :/bin/to_folder/:$PATH
+set PATH $HOME/.local/to_folder/:$PATH
 ```
 
