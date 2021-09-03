@@ -37,3 +37,18 @@
 ```bash
 flye # to aassembly de novo 
 ```
+
+
+# setting $PATH and env
+
+in `.bashrc` add 
+
+```bash
+export PATH=$PATH:/bin/to_folder
+```
+
+and in the `.tcshrc`, set the enviroment by adding
+```bash
+set PATH :/bin/to_folder/:$PATH
+```
+
