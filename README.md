@@ -31,13 +31,21 @@
 
 
 ### Scheduler 
-SGE infrastructure of the CQLS-OSU cluster, 
+SGE infrastructure of the CQLS-OSU cluster 
+_SGE submission examples_
 ```bash
+# general submission work
 SGE_Batch -c “./tu script” -P 1 -q bpp -r jobname
+# specific hots submission work
 SGE_Batch -c “./tu script” -P 1 -q bpp@cerebro -r jobname
-###
+```
+_Development session_
+```bash
+# running development session in a specific host
 qrsh -q bpp@cerebro
 ```
+Note: you can use the commands below to specify memory, processors, etc.
+
 >Basic Usage:
   `SGE_Batch -c '<command>' -m <max_memory> -f <free_mem_request> -F <max_file_size> -P <number_processors> -r <Run_ID> -p <priority> -M <email_address> -q <queue> -Q`
  -c	The command to submit. (REQUIRED: Make sure to use '')\
