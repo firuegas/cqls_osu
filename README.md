@@ -35,7 +35,8 @@ SGE infrastructure of the CQLS-OSU cluster,
 ```bash
 SGE_Batch -c “./tu script” -P 1 -q bpp -r jobname
 SGE_Batch -c “./tu script” -P 1 -q bpp@cerebro -r jobname
-
+###
+qrsh -q bpp@cerebro
 ```
 >Basic Usage:
   `SGE_Batch -c '<command>' -m <max_memory> -f <free_mem_request> -F <max_file_size> -P <number_processors> -r <Run_ID> -p <priority> -M <email_address> -q <queue> -Q`
