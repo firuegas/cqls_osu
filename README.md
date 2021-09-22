@@ -80,10 +80,21 @@ SGE_Avail
 -------
 ## Metapipeline
 
-> Raw pipeline for PacBio genome assemblies of P. ramorum
-```bash
--> hgap-4 -> Falcon-unzip -> purge_haplotigs -> SSPACE_LongRead
+> Raw pipeline for PacBio genome assemblies of _P. ramorum_
+```R
+"Assembly reads" 
+   Nextdenovo -> Pacbio # reads assembly
+   "QStats "
+      assembly -> Braker # contig annotation
+      "Genome annotated"
+         <Comparative genomics> -> What Tools?
 ```
+
+# Suggested and notes 
+```sh
+hgap-4 -> Falcon-unzip -> purge_haplotigs -> SSPACE_LongRead
+```
+
 #for nano pore assemblies 
 ```bash
 flye # to aassembly de novo 
