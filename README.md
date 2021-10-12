@@ -114,6 +114,6 @@ set PATH $HOME/.local/to_folder/:$PATH
 ```
 
 ----------------------
-##### CGRB/CQLS seful links
+### CGRB/CQLS useful links
 [UNIX hpc cluster basic information](https://cosine.oregonstate.edu/faqs/unix-hpc-cluster)
 [CGRB infrastructure](https://shell.cqls.oregonstate.edu/files/cgrb_infrastructure.pdf)
