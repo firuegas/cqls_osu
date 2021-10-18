@@ -8,7 +8,10 @@
 
                Command Line Access:
                ssh -p 732 username@shell.cgrb.oregonstate.edu
-
+               
+               This is to avoid get disconnected often
+               ssh -X -o ServerAliveInterval=30 -p 732 username@shell.cgrb.oregonstate.edu
+         
                Please use the following machine to upload and download data:
                Server:
 
