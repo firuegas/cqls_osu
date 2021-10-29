@@ -79,6 +79,16 @@ SGE_Avail
 #               galls   503.7   477.0          64               bpp      44          24    normal       BIP
 #               cedro   503.7   492.1          64               bpp      44          18    normal       BIP
 ``` 
+------
+## Creating conda environments 
+```python3
+conda create --name NEW_ENV python=3
+conda activate NEW_ENV
+conda deactivate NEW_ENV
+# checking list enviroment
+conda env list
+```
+Cheat sheet: [conda environments](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
 -------
 ## Metapipeline
