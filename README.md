@@ -88,7 +88,7 @@ conda deactivate NEW_ENV
 # checking list enviroment
 conda env list
 ```
-to modify the long path use: `conda config --set env_prompt '({name})'`
+to modify the long path use: `conda config --set env_prompt '({name})'`\
 Cheat sheet: [conda environments](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
 -------
