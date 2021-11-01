@@ -72,13 +72,14 @@ SGE_Avail
 #                 HOST TOTRAM FREERAM    TOTSLOTS                 Q  QSLOTS  QFREESLOTS   QSTATUS     QTYPE
 #                 amp  1007.6   977.5         128               bpp     107         107    normal       BIP
 #             cerebro  1007.3   986.6         256               bpp     171         103    normal       BIP
-#              anduin  1007.6   977.5         128               bpp      86          86    normal       BIP
+#              anduin*  1007.6  977.5         128               bpp      86          86    normal       BIP
 #              selway  1007.6   964.1         128               bpp      86          86    normal       BIP
 #           symbiosis  1007.4   991.7         128               bpp      89          67    normal       BIP
 #              debary  1007.6   936.9         128               bpp      86          50    normal       BIP
 #               galls   503.7   477.0          64               bpp      44          24    normal       BIP
 #               cedro   503.7   492.1          64               bpp      44          18    normal       BIP
 ``` 
+> * LeBoldus primary host, also Fangorn - not listed.
 ------
 ## Creating conda environments 
 ```python3
