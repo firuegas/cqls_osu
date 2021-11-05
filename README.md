@@ -46,6 +46,8 @@ _Development session_
 ```bash
 # running development session in a specific host
 qrsh -q bpp@cerebro
+# requesting multiple processors
+qrsh -q bpp@anduin -pe thread 16
 ```
 Note: you can use the commands below to specify memory, processors, etc.
 
